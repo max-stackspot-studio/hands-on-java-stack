@@ -1,0 +1,8 @@
+type: app
+description: Java Api + JPA + OpenAPI e Swagger UI
+# template used to create the project
+template: hands-on-java-stack/base-template
+# list of plugins to be applied after project creation
+plugins:
+  - plugin: hands-on-java-stack/java-spring-openapi-plugin
+  - plugin: hands-on-java-stack/java-spring-data-jpa-plugin
